@@ -1,8 +1,8 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import hero from "../assets/images/hero.png"
 import Link from "next/link"
-import Image from "next/image";
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -21,7 +21,6 @@ export default function Hero() {
               </p>
               <Link href="#services" className="btn btn-warning">
                 Find Out More<span className="ml-2">&darr;</span>
-
               </Link>
             </div>
           </Col>
@@ -36,12 +35,13 @@ export default function Hero() {
                 className="img-fluid mx-auto d-block"
                 style={{
                   maxWidth: "100%",
-                  height: "auto"
-                }} />
+                  height: "auto",
+                }}
+              />
             </div>
           </Col>
         </Row>
       </Container>
     </section>
-  );
+  )
 }
