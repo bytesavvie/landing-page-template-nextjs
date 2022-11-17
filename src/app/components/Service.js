@@ -18,6 +18,10 @@ export default function Service({ service }) {
                 height={667}
                 alt=""
                 className="img-fluid d-block mx-auto"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
               />
             </div>
           </Col>
@@ -25,10 +29,8 @@ export default function Service({ service }) {
             <div className="mt-5 mt-sm-0 mb-4">
               <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.title}</h5>
               <p className="text-muted mb-3 f-15">{service.description}</p>
-              <Link href={service.url}>
-                <a className="f-16 text-warning">
-                  Try It Now <span className="right-icon ml-2">&#8594;</span>
-                </a>
+              <Link href={service.url} className="f-16 text-warning">
+                Try It Now<span className="right-icon ml-2">&#8594;</span>
               </Link>
             </div>
           </Col>
@@ -39,10 +41,8 @@ export default function Service({ service }) {
             <div className="mb-4">
               <h5 className="text-dark font-weight-normal mb-3 pt-3">{service.title}</h5>
               <p className="text-muted mb-3 f-15">{service.description}</p>
-              <Link href={service.url}>
-                <a className="f-16 text-warning">
-                  Try It Now <span className="right-icon ml-2">&#8594;</span>
-                </a>
+              <Link href={service.url} className="f-16 text-warning">
+                Try It Now<span className="right-icon ml-2">&#8594;</span>
               </Link>
             </div>
           </Col>
@@ -55,6 +55,10 @@ export default function Service({ service }) {
                 height={667}
                 alt=""
                 className="img-fluid d-block mx-auto"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
               />
             </div>
           </Col>
