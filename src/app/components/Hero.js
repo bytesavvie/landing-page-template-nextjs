@@ -19,10 +19,9 @@ export default function Hero() {
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut
                 aliquid ex ea commodi consequatur.
               </p>
-              <Link href="#services">
-                <a className="btn btn-warning">
-                  Find Out More <span className="ml-2">&darr;</span>
-                </a>
+              <Link href="#services" className="btn btn-warning">
+                Find Out More<span className="ml-2">&darr;</span>
+
               </Link>
             </div>
           </Col>
@@ -41,5 +40,5 @@ export default function Hero() {
         </Row>
       </Container>
     </section>
-  )
+  );
 }
