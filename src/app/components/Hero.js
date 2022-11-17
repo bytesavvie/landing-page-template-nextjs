@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import hero from "../assets/images/hero.png"
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/legacy/image";
 
 export default function Hero() {
   return (
