@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import hero from "../assets/images/hero.png"
 import Link from "next/link"
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -34,7 +34,10 @@ export default function Hero() {
                 height={710}
                 alt=""
                 className="img-fluid mx-auto d-block"
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
             </div>
           </Col>
         </Row>

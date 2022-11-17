@@ -1,7 +1,7 @@
 import React from "react"
 import { Row, Col } from "react-bootstrap"
 import serviceImg from "../assets/images/service.png"
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link"
 
 export default function Service({ service }) {
@@ -17,7 +17,10 @@ export default function Service({ service }) {
               height={667}
               alt=""
               className="img-fluid d-block mx-auto"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </Col>
         <Col md={{ size: 6, offset: 1 }}>
@@ -52,7 +55,10 @@ export default function Service({ service }) {
               height={667}
               alt=""
               className="img-fluid d-block mx-auto"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </Col>
       </Row>
